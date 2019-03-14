@@ -1,0 +1,6 @@
+bin/
+include/
+libs/
+src/
+venv/
+.idea/

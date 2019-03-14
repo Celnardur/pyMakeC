@@ -1,0 +1,19 @@
+{
+	"Project Name": "forgeTest",
+	"Compiler": "g++",
+	"Flags": "-g -std=gnu++11 -Wall",
+	"Src Root Dir": "./src",
+	"Other Src Dirs": [],
+	"Include Dirs": [],
+	"3rd Party Include Dirs": ["./include"],
+	"Lib Dirs": ["./libs"],
+	"Libs": [
+		"glfw3", "m", "GL", "X11",
+		"Xxf86vm", "Xrandr", "Xi",
+		"dl", "pthread", "Xinerama",
+		"Xcursor", "rt"
+	],
+	"Bin": "./bin",
+	"Obj Dir": "./bin/obj",
+	"Executable": true
+}
